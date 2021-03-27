@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-import Button from './btn';
 import Review from './review';
 import { Link } from 'react-router-dom';
-import Hamburger from './hamburger';
 import '../styles/reviewPage.css'
 import ss1 from '../assets/ss1.png';
 import ss2 from '../assets/ss2.png';

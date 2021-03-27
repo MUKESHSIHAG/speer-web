@@ -7,11 +7,11 @@ import Hamburger from './hamburger';
 
 let actx = new AudioContext();
 let out = actx.destination;
-
+var osc = null;
 let osc1 = actx.createOscillator();
 let gain1 = actx.createGain();
 
-osc1.start();  
+// osc1.start();  
 
 class Red extends Component {
     constructor(props) {
@@ -21,7 +21,6 @@ class Red extends Component {
         }
     }
     setPlayMusic = () => {
-        console.log("je");
         this.setState({
             play: !this.state.play
         }, () => {
@@ -30,14 +29,17 @@ class Red extends Component {
         })
     }
     playStopMusic = () => {
-        console.log("in play msuci");
         if(this.state.play) {
-            osc1.connect(gain1);
-            gain1.connect(out);
+            osc = actx.createOscillator();
+            osc.frequency.value = 1000;
+    
+            osc.start(actx.currentTime);
+            osc.connect(actx.destination);
         }
         else {
-            osc1.disconnect(gain1);
-            gain1.disconnect(out);
+            osc.stop(actx.currentTime);
+            osc.disconnect(actx.destination);
+            osc = null;
         }
     }
     render() {
