@@ -47,7 +47,7 @@ class Red extends Component {
             btnColor:"#D34848"
         }
         return (
-            <div className='red' style={{zIndex:"30"}}>
+            <div className='red'>
                 <div className="row">
                     <Hamburger />
                     <Button {...data}/>
