@@ -1,0 +1,42 @@
+
+.button {
+    position: absolute;
+    right: 0;
+    margin-right: 5%;
+    margin-top: 5%;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background: #FFFFFF;
+    padding: 0.7em 0.7em;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    width: 13%;
+    outline: none;
+    overflow: hidden;
+    border-radius: 100px;
+    font: normal normal bold 18px Helvetica;
+    letter-spacing: 1.8px;
+  }
+  .button span {
+    position: relative;
+    pointer-events: none;
+  }
+  .button::before {
+    --size: 0;
+    content: '';
+    position: absolute;
+    left: var(--x);
+    top: var(--y);
+    width: var(--size);
+    color: white;
+    height: var(--size);
+    background: radial-gradient(circle closest-side, #1FE1E9, #5E33D1, #D34848, #FFB33F);
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    transition: width .2s ease, height .2s ease;
+  }
+  .button:hover::before {
+    --size: 400px;
+  } 

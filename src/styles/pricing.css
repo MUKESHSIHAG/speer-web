@@ -1,0 +1,124 @@
+.pricing {
+    height: 1500px;
+    background: #191919 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width: 100%;
+}
+
+.pricing-txt {
+    text-align: left;
+    margin-left: 9.1rem;
+    padding-top: 13%;
+    padding-bottom: 3%;
+    font: normal normal bold 50px Helvetica;
+    letter-spacing: 7.4px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.pricing-txt2 {
+    text-align: left;
+    font: normal normal normal 35px Helvetica;
+    margin-left: 9.1rem;
+    margin-top: -2rem;
+    letter-spacing: 5.1px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.col1-txt-plan {
+    text-align: left;
+    margin-left: 8.5rem;
+    margin-top: -0.5rem;
+    font: normal normal bold 30px Helvetica;
+    letter-spacing: 4.7px;
+    color: #D34848;
+    opacity: 1;
+}
+
+.col1-txt2 {
+    text-align: left;
+    margin-left: 8.5rem;
+    font: normal normal normal 25px Helvetica;
+    letter-spacing: 3.5px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.col1-txt-basic {
+    text-align: left;
+    margin-left: 8.5rem;
+    margin-top: 5rem;
+    font: normal normal bold 30px Helvetica;
+    letter-spacing: 4.2px;
+    color: #D34848;
+    opacity: 1;
+
+}
+
+.price {
+    font-size: 350%;
+    font-weight: bold;
+}
+
+.pricing-music {
+    text-align: left;
+    font: normal normal normal 20px Helvetica;
+    margin-left: 9rem;
+    letter-spacing: 4.7px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.fa-music{
+    background: linear-gradient(to right, #FFFFFF 50%, #050505 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.button-pricing {
+    position: absolute;
+    margin-left: 9rem;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    color: #FFFFFF;
+    padding: 0.7em 0.7em;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    width: 40%;
+    outline: none;
+    overflow: hidden;
+    border-radius: 100px;
+    font: normal normal bold 18px Helvetica;
+    letter-spacing: 1.8px;
+  }
+  .button-pricing span {
+    position: relative;
+    pointer-events: none;
+  }
+  .button-pricing::before {
+    --size: 0;
+    content: '';
+    position: absolute;
+    left: var(--x);
+    top: var(--y);
+    width: var(--size);
+    color: white;
+    height: var(--size);
+    background: radial-gradient(circle closest-side, #1FE1E9, #5E33D1, #D34848, #FFB33F);
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    transition: width .2s ease, height .2s ease;
+  }
+  .button-pricing:hover::before {
+    --size: 400px;
+  } 
+
+  .pricing-perks {
+      background-color: #D34848;
+      height: 800px;
+  }

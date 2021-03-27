@@ -1,0 +1,89 @@
+.perks {
+    height: 800px;
+    background: #191919 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width: 100%;
+    /* z-index: 1; */
+}
+
+.perks-txt {
+    text-align: left;
+    margin-left: 9.1rem;
+    padding-top: 20%;
+    padding-bottom: 3%;
+    font: normal normal bold 50px Helvetica;
+    letter-spacing: 7.4px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.col1-txt {
+    text-align: left;
+    margin-left: 8.5rem;
+    font: normal normal bold 38px Helvetica;
+    letter-spacing: 5.1px;
+    color: #D34848;
+    opacity: 1;
+}
+
+.col1-txt2 {
+    text-align: left;
+    margin-left: 8.5rem;
+    font: normal normal normal 25px Helvetica;
+    letter-spacing: 3.5px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.hamburger-perks {
+    height:450px;
+    width: 500px;
+    background: #D34848;
+    margin-left: -8%;
+    margin-top: -5%;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    position: absolute;
+    transition-duration: 5s;
+    z-index: 2;
+}
+
+.ham-txt1-perks {
+    margin-left: 12rem;
+    /* margin-top: 15rem; */
+    font: normal normal bold 30px Helvetica;
+    letter-spacing: 4.7px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.ham-icon-perks {
+    margin-left: 12rem;
+    margin-top: 10rem;
+    font: normal normal normal 30px Helvetica;
+    letter-spacing: 4.8px;
+    color: #FFFFFF;
+    opacity: 1;
+    cursor: pointer;
+}
+.ham-icon-not-expand-perks {
+  text-align: left;
+  margin-left: 5rem;
+  padding-top: 5rem;
+  position: absolute;
+  font: normal normal normal 30px Helvetica;
+  letter-spacing: 4.8px;
+  color: #ffffff;
+  opacity: 1;
+  cursor: pointer;
+}
+.ham-txt2-perks {
+    text-align: left;;
+    margin-left: 12rem;
+    font: normal normal bold 30px Helvetica;
+    letter-spacing: 4.7px;
+    color: #FFFFFF;
+    opacity: 1;
+}

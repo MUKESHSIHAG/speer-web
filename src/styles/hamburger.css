@@ -1,0 +1,52 @@
+.hamburger {
+    height:500px;
+    width: 500px;
+    background:#0B0B0B;
+    margin-left: -8%;
+    margin-top: -8%;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    position: absolute;
+    transition-duration: 5s;
+    /* z-index: 2; */
+}
+
+.ham-txt1 {
+    margin-left: 12rem;
+    /* margin-top: 15rem; */
+    font: normal normal bold 30px Helvetica;
+    letter-spacing: 4.7px;
+    color: #D34848;
+    opacity: 1;
+}
+
+.ham-icon {
+    margin-left: 12rem;
+    margin-top: 12rem;
+    font: normal normal normal 30px Helvetica;
+    letter-spacing: 4.8px;
+    color: #D34848;
+    opacity: 1;
+    cursor: pointer;
+}
+.ham-icon-not-expand {
+  text-align: left;
+  margin-left: 5rem;
+  padding-top: 5rem;
+  position: absolute;
+  font: normal normal normal 30px Helvetica;
+  letter-spacing: 4.8px;
+  color: #ffffff;
+  opacity: 1;
+  cursor: pointer;
+}
+.ham-txt2 {
+    text-align: left;;
+    margin-left: 12rem;
+    font: normal normal bold 30px Helvetica;
+    letter-spacing: 4.7px;
+    color: #ffffff;
+    opacity: 1;
+}

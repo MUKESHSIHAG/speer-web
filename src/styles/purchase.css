@@ -1,0 +1,120 @@
+.purchase {
+    height: 600px;
+    background: #191919 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width: 100%;
+}
+
+.purchase-txt {
+    text-align: left;
+    font: normal normal bold 50px Helvetica;
+    letter-spacing: 7.4px;
+    margin-top: 15rem;
+    margin-left: 8rem;
+    color: #D34848;
+    opacity: 1;
+}
+
+.purchase-txt2 {
+    text-align: left;
+    font: normal normal normal 35px Helvetica;
+    letter-spacing: 5.1px;
+    margin-left: 8rem;
+    color: #ffffff;
+    opacity: 1;
+}
+
+
+.button-purchase {
+    position: relative;
+    margin-right: 5%;
+    margin-top: 16rem;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background-image: linear-gradient(to right , #1FE1E9, #5E33D1, #D34848, #FFB33F);
+    padding: 1em 1em;
+    border: none;
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+    width: 45%;
+    outline: none;
+    overflow: hidden;
+    border-radius: 100px;
+    font: normal normal bold 18px Helvetica;
+    letter-spacing: 1.8px;
+  }
+  .button-purchase span {
+    position: relative;
+    pointer-events: none;
+  }
+  .button-purchase::before {
+    --size: 0;
+    content: '';
+    position: absolute;
+    left: var(--x);
+    top: var(--y);
+    width: var(--size);
+    color: white;
+    height: var(--size);
+    background: radial-gradient(circle closest-side, #FFB33F, #D34848,  #5E33D1, #1FE1E9);
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    transition: width .2s ease, height .2s ease;
+  }
+  .button-purchase:hover::before {
+    --size: 400px;
+  } 
+
+  
+.hamburger-purchase {
+  height:400px;
+  width: 450px;
+  background-color:#1FE1E9;
+  margin-left: -8%;
+  margin-top: -2%;
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  position: absolute
+}
+
+.ham-txt1-purchase {
+  margin-left: 10rem;
+  /* margin-top: 15rem; */
+  font: normal normal bold 30px Helvetica;
+  letter-spacing: 4.7px;
+  color: #000;
+  opacity: 1;
+}
+
+.ham-icon-purchase {
+  margin-left: 10rem;
+  margin-top: 5rem;
+  font: normal normal normal 30px Helvetica;
+  letter-spacing: 4.8px;
+  color: #000000;
+  opacity: 1;
+  cursor: pointer;
+}
+.ham-icon-not-expand-purchase {
+text-align: left;
+margin-left: 5rem;
+padding-top: 5rem;
+position: absolute;
+font: normal normal normal 30px Helvetica;
+letter-spacing: 4.8px;
+color: #ffffff;
+opacity: 1;
+cursor: pointer;
+}
+.ham-txt2-purchase {
+  text-align: left;;
+  margin-left: 10rem;
+  font: normal normal bold 30px Helvetica;
+  letter-spacing: 4.7px;
+  color: #ffffff;
+  opacity: 1;
+}

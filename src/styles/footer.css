@@ -1,0 +1,33 @@
+.footer {
+    height: 420px;
+    background: #5E33D1 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width: 100%;
+}
+
+.footer-mail {
+    padding-top: 10%;
+    padding-left: 10%;
+    text-align: left;
+    font: normal 25px Helvetica;
+    letter-spacing: 3.5px;
+    color: #FFFFFF;
+    opacity: 1
+}
+
+.footer-exp {
+    margin-top: 5%;
+    font-size: 35px;
+    font-family: Helvetica, Neue;
+    letter-spacing: 4.8px;
+    color: #FFFFFF;
+    opacity: 1
+}
+
+.footer-rights {
+    font-size: 15px;
+    font-family: Helvetica, Neue;
+    letter-spacing: 2.4px;
+    color: #FFFFFF;
+    opacity: 1
+}

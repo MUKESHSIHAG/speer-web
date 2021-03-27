@@ -1,0 +1,114 @@
+.red {
+    height: 700px;
+    background: #D34848;
+    opacity: 1;
+    width: 100%;
+    cursor: url('../assets/cursor.png'), auto;
+}
+
+.first-half-sup{
+    margin-top: 20%;
+    text-align: left;
+    font: normal normal bold 55px Helvetica;
+    letter-spacing: 2.4px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.first-half-exp{
+    text-align: left;
+    font: normal normal normal 45px Helvetica;
+    letter-spacing: 2.4px;
+    color: #000000;
+    opacity: 1;
+}
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    margin-top: 10%;
+    margin-left: 10%;
+    height: 300px; 
+}
+
+.column-right {
+    margin-top: 10%;
+    width: 40%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.img-dj1 {
+  width: 30%;
+}
+.img-dj1:hover {
+  cursor: url('../assets/curdj.png'), pointer;
+}
+.img-dj2 {
+  width: 30%;
+  padding-top: 30%;
+}
+.img-dj2:hover {
+  cursor: url('../assets/curdj.png'), pointer;
+}
+.btn {
+    position: absolute;
+    left: 0;
+    margin-left: 10%;
+    margin-top: 1%;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background: #FFFFFF;
+    padding: 0.7em 0.7em;
+    border: none;
+    color: #D1346E;
+    font-size: 1.2em;
+    cursor: pointer;
+    width: 15%;
+    outline: none;
+    overflow: hidden;
+    border-radius: 100px;
+    font: normal normal bold 18px Helvetica;
+    letter-spacing: 1.8px;
+  }
+  .btn span {
+    position: relative;
+    left: 0;
+    pointer-events: none;
+  }
+  .btn::before {
+    --size: 0;
+    content: '';
+    position: absolute;
+    left: var(--x);
+    top: var(--y);
+    width: var(--size);
+    height: var(--size);
+    background: radial-gradient(circle closest-side, #1FE1E9, #5E33D1, #D34848, #FFB33F);
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    transition: width .2s ease, height .2s ease;
+  }
+  .btn:hover::before {
+    --size: 400px;
+  } 
+
+  
+/* #cursor {
+  position: absolute;
+  width: 100px;
+  border-radius: 50%;
+  margin-left: 50%;
+  margin-top: 20%;
+  pointer-events: none;
+  height: 100px;
+  border: 2px solid black;
+  size: 5rem;
+  transition: 0.1s;
+  box-sizing: border-box;
+  transform: translate(-50%, -50%);
+} */
